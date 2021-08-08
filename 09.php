@@ -15,9 +15,6 @@ $stmt->execute();
 //create variable
 $stmt->bind_result($titulo, $img);
 
-//assign result
-$stmt->fetch();
-
 
 //Imprimimos el resultado
 while($stmt->fetch()):
